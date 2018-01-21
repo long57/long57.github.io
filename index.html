@@ -1,180 +1,761 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="读书, Python" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="闲情杂记" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="读书笔记">
+<meta property="og:type" content="website">
+<meta property="og:title" content="闲情杂记">
+<meta property="og:url" content="http://lyoong.info/index.html">
+<meta property="og:site_name" content="闲情杂记">
+<meta property="og:description" content="读书笔记">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="闲情杂记">
+<meta name="twitter:description" content="读书笔记">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://lyoong.info/"/>
+
+
+
+
+
+  <title>闲情杂记</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+
+
+
+
+
+
+
 
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/10/22/hello-world/" class="article-date">
-  <time datetime="2017-10-22T04:05:35.748Z" itemprop="datePublished">2017-10-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/22/hello-world/">Hello World</a>
-    </h1>
+    
   
 
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">闲情杂记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">浮生若梦，为欢几何。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lyoong.info/2018/01/21/tandushu/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="bibibi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="闲情杂记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/21/tandushu/" itemprop="url">谈读书</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-21T17:22:00+08:00">
+                2018-01-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/22/hello-world/" data-id="cj92973910000c0soiqithd57" class="article-share-link">Share</a>
       
+
+      
+        
+          
+            <p>&emsp;&emsp;作者：朱光潜<br>&emsp;&emsp;书是读不尽的，就读尽也是无用，许多书都没有一读的价值。多读一本没有价值的书，便丧失可读一本有价值的书的时间和精力；所以须慎加选择。你自己自然不会选择，须就教于批评家和专门学者。我不能告诉你必读的书，我能告诉你不必读的书。我所指的不必读的书，是谈书的书，是值不得读第二遍的书，走进一个图书馆，你尽管看见千卷万卷的纸本子，其中真正能够称为“书”的恐怕还难上十卷百卷。你应该读的只是这十卷百卷的书。在这些书中间你不但可以得到较真确的知识，而且可以于无形中吸收大学者治学的精神和方法。这些书才能撼动你的心灵，激动你的思考。其它像《文学大纲》、《科学大纲》以及杂志报章上的书评，实在都不能供你受用。你与其读千卷万卷的诗集，不如读一部《国风》或《古诗十九首》，你与其读千卷万卷谈希腊哲学的书籍，不如读一部柏拉图的《理想国》。<br>&emsp;&emsp;你也许要问我像我们中学生究竟应该读些什么书呢?这个问题可是不易回答。你大约还记得北京《京报副刊》曾征求“青年必读十种”，结果有些人所举的十种尽是几何代数，有些人所举的十种尽是《史记》、《汉书》。本来这种征求的本意，求以一个人的标准做一切人的标准，好像我只欢喜吃面，你就不能吃米，完全是一种错误见解。各人的天资、兴趣、环境、职业不同，你怎么能定出万应灵丹似的十种书，供天下无数青年读之都感觉同样趣味，发生同样效力?<br>&emsp;&emsp;我特地去调查了几个英国公共图书馆。他们的青年读品部最流行的书可以分为四类：(1) 冒险小说和游记，(2)神话和寓言，(3)生物故事，(4)名人传记和爱国小说。其中代表的书籍是幽尔??(凡尔纳)的《八十日环游世界记》和《海底二万里》，德孚(笛福)的《鲁滨逊飘流记》，大仲马的《三剑侠》，霍爽(霍桑)的《奇书》和《丹谷闲话》(Hawthorne:Wonder Book and Tanglewood Tales)，金斯莱(Kingsiey)的《希腊英雄传》(Heroes)，法布尔的《 鸟兽故事》(Fabre:Story Book of Birds and Brasts)，安徒生的《童话》，骚德的《纳尔 逊传》(Southey:Life of Nelson)，房龙的《人类故事》(Vanloon:The Story of Mankind) 之类。这些书在外国虽然流行，给中国青年读，却不甚相宜。中国学生们大半是少年老成，在中学时代就欢喜煞有介事的谈一点学理。他们――包括你和我自然都在内――不仅欢喜谈谈文学，还要研究社会问题，甚至于哲学问题。这既是一种自然倾向，也就不能漠视，我个人的见解也不妨提起和你商量商量。十五六岁以后的教育宜重发达理解，十五六岁以前的教育宜重发达想象。所以初中的学生们宜多读想象的文字，高中的学生才应该读含有学理的文字。<br>&emsp;&emsp;谈到这里，我还没有答复应读何种书的问题。老实说，我没有能力答复，我自己便没曾读过几本“青年必读书”，老早就读些壮年必读书。比方中国书里，我最欢喜《国风》、《庄子》、《楚辞》、《史记》、《古诗源》、《文选》中的《书笺》、《世说新语》、《陶渊明 集》、《李太白集》、《花间集》、《张惠言词选》、《红楼梦》等等。在外国书里，我最欢喜溪兹(济慈)、雪莱、考老芮基(柯尔律治)、白朗宁诸人的诗集，苏菲克里司(索福克勒斯)的七悲剧，莎士比亚的《哈孟列德(哈姆雷特)》、《李尔王》和《奥塞罗》，歌德的《浮士德》，易卜生的戏剧集，杜(屠)格涅夫的《新田地(处女地)》和《父与子》，妥斯套夫斯克(陀斯妥耶夫斯基)的《罪与罚》，福洛伯(福楼拜)的《布华里(包法利)夫人》，莫泊桑的小说集，小泉八云关于日本的著作等等。如果我应北京《京报副刊》的征求，也许都把这古董洋货捧上，凑成“青年必读书十种”。但是我知道这是荒谬绝伦。所以我现在不敢答复你应读何书的问题。你应该请教你所知的专门学者，请他们各就自己所学范围以内指定三两种青年可读的书。你如果请一个人替你面面俱到的设想，比方他是学文学的人，他也许明知 青年必读书应含有社会问题科学常识等等，而自己又没甚把握，姑且就他所知的一两种拉来凑数，你就像问道于盲了。同时，你要知道读书好比探险，也不能全靠别人指导，自己也须费些工夫去搜求。我从来没有听见有人按照别人替他定的“青年必读书十种”，或“世界名著百种”读下去，便成就一个学者。别人只能介绍，抉择还要靠你自己。<br>&emsp;&emsp;读书方法，我不能多说，只有两点须在此约略提起：第一，凡值得读的书至少须读两遍。第一遍须快读，着眼在醒豁全篇大旨与特色。第二遍须慢读，须以批评态度衡量书的内容。第二，读过一本书，须笔记纲要精彩和你自己的意见。记笔记不仅可以帮助你记忆，而且可以逼得你仔细。各人天资习惯不同，你用哪种方法收效较大，我用哪种方法收效较大，不是一概而论的。你自己终究会找出你自己的方法，别人决不能给你一个方法，使你可以依法炮制。<br>&emsp;&emsp;十几年前我曾经写过一篇短文谈读书，这问题实在是谈不尽，而且这些年来我的见解也有些变迁，现在再就这问题谈一回，趁便把上次谈学问有未尽的话略加补充。<br>&emsp;&emsp;学问不只是读书，而读书究竟是学问的一个重要途径。因为学问不仅是个人的事而是全人类的事，每科学问到了现在的阶段，是全人类分途努力日积月累所得到的成就，而这成就还没有淹没，就全靠有书籍记载流传下来。书籍是过去人类的精神遗产的宝库，也可以说是人类文化学术前进轨迹上的记程碑。我们就现阶段的文化学术求前进，必定根据过去人类已得的成就做出发点。如果抹煞过去人类已得的成就，我们说不定要把出发点移回到几百年前甚至几千年前，纵然能前进，也还是开倒车落伍。读书是要清算过去人类成就的总账，把几千年的人类思想经验在短促的几十年内重温一遍，把过去无数亿万人辛苦获来的知识教训集中到读者一个人身上去受用。有了这种准备，一个人总能在学问途程上作万里长征，去发见新的世界。<br>&emsp;&emsp;历史愈前进，人类的精神遗产愈丰富，书籍愈浩繁，而读书也就愈不易。书籍固然可贵，却也是一种累赘，可以变成研究学问的障碍。它至少有两大流弊。第一，书多易使读者不专精。我国古代学者因书籍难得，皓首穷年才能治一经，书虽读得少，读一部却就是一部，口诵心惟，咀嚼得烂熟，透入身心，变成一种精神的原动力，一生受用不尽。现在书籍易得，一个青年学者就可夸口曾过目万卷，”过目”的虽多，”留心”的却少，譬如饮食，不消化的东西积得愈多，愈易酿成肠胃病，许多浮浅虚骄的习气都由耳食肤受所养成。其次，书多易使读者迷方向。任何一种学问的书籍现在都可装满一图书馆，其中真正绝对不可不读的基本著作往往不过数十部甚至于数部。许多初学者贪多而不务得，在无足轻重的书籍上浪费时间与精力，就不免把基本要籍耽搁了；比如学哲学者尽管看过无数种的哲学史和哲学概论，却没有看过一种柏拉图的《对话集》，学经济学者尽管读过无数种的教科书，却没有看过亚当斯密的《原富》。做学问如作战，须攻坚挫锐，占住要塞。目标太多了，掩埋了坚锐所在，只东打一拳，西路一脚，就成了”消耗战”。<br>&emsp;&emsp;读书并不在多，最重要的是选得精，读得彻底。与其读十部无关轻重的书，不如以读十部书的时间和精力去读一部真正值得读的书；与其十部书都只能泛览一遍，不如取一部书精读十遍。”好书不厌百回读，熟读深思子自知”，这两句诗值得每个读书人悬为座右铭。读书原为自己受用，多读不能算是荣誉，少读也不能算是羞耻。少读如果彻底，必能养成深思熟虑的习惯，涵泳优游，以至于变化气质；多读而不求甚解，则如驰骋十里洋场，虽珍奇满目，徒惹得心花意乱，空手而归。世间许多人读书只为装点门面，如暴发户炫耀家私，以多为贵。这在治学方面是自欺欺人，在做人方面是趣味低劣。<br>&emsp;&emsp;读的书当分种类，一种是为获得现世界公民所必需的常识，一种是为做专门学问。为获常识起见，目前一般中学和大学初年级的课程，如果认真学习，也就很够用。所谓认真学习，熟读讲义课本并不济事，每科必须精选要籍三五种来仔细玩索一番。常识课程总共不过十数种，每种选读要籍三五种，总计应读的书也不过五十部左右。这不能算是过奢的要求。一般读书人所读过的书大半不止此数，他们不能得实益，是因为他们没有选择，而阅读时又只潦草滑过。<br>&emsp;&emsp;常识不但是现世界公民所必需，就是专门学者也不能缺少它。近代科学分野严密，治一科学问者多固步自封，以专门为藉口，对其他相关学问毫不过问。这对于分工研究或许是必要，而对于淹通深造却是牺牲。宇宙本为有机体，其中事理彼此息息相关，牵其一即动其余，所以研究事理的种种学问在表面上虽可分别，在实际上却不能割开。世间绝没有一科孤立绝缘的学问。比如政治学须牵涉到历史、经济、法律、哲学、心理学以至于外交、军事等等，如果一个人对于这些相关学问未曾问津，入手就要专门习政治学，愈前进必愈感困难，如老鼠钻牛角，愈钻愈窄，寻不着出路。其他学问也大抵如此，不能通就不能专，不能博就不能约。先博学而后守约，这是治任何学问所必守的程序。我们只看学术史，凡是在某一科学问上有大成就的人，都必定于许多它科学问有深广的基础。目前我国一般青年学子动辄喜言专门，以至于许多专门学者对于极基本的学科毫无常识，这种风气也许是在国外大学做博士论文的先生们所酿成的。它影响到我们的大学课程，许多学系所设的科目”专”到不近情理，在外国大学研究院里也不一定有。这好像逼吃奶的小孩去嚼肉骨，岂不是误人子弟？<br>&emsp;&emsp;有些人读书，全凭自己的兴趣。今天遇到一部有趣的书就把预拟做的事丢开，用全副精力去读它；明天遇到另一部有趣的书，仍是如此办，虽然这两书在性质上毫不相关。一年之中可以时而习天文，时而研究蜜蜂，时而读莎士比亚。在旁人认为重要而自己不感兴味的书都一概置之不理。这种读法有如打游击，亦如蜜蜂采蜜。它的好处在使读书成为乐事，对于一时兴到的著作可以深入，久而久之，可以养成一种不平凡的思路与胸襟。它的坏处在使读者泛滥而无所归宿，缺乏专门研究所必需的”经院式”的系统训练，产生畸形的发展，对于某一方面知识过于重视，对于另一方面知识可以很蒙昧。我的朋友中有专门读冷僻书籍，对于正经正史从未过问的，他在文学上虽有造就，但不能算是专门学者。如果一个人有时间与精力允许他过享乐主义的生活，不把读当做工作而只当做消遣，这种蜜蜂采蜜式的读书法原亦未尝不可采用。但是一个人如果抱有成就一种学问的志愿，他就不能不有预定计划与系统。对于他，读书不仅是追求兴趣，尤其是一种训练，一种准备。有些有趣的书他须得牺牲，也有些初看很干燥的书他必须咬定牙关去硬啃，啃久了他自然还可以啃出滋味来。<br>&emsp;&emsp;读书必须有一个中心去维持兴趣，或是科目，或是问题。以科目为中心时，就要精选那一科要籍，一部一部的从头读到尾，以求对于该科得到一个概括的了解，作进一步作高深研究的准备。读文学作品以作家为中心，读史学作品以时代为中心，也属于这一类。以问题为中心时，心中先须有一个待研究的问题，然后采关于这问题的书籍去读，用意在搜集材料和诸家对于这问题的意见，以供自己权衡去取，推求结论。重要的书仍须全看，其余的这里看一章，那里看一节，得到所要搜集的材料就可以丢手。这是一般做研究工作者所常用的方法，对于初学不相宜。不过初学者以科目为中心时，仍可约略采取以问题为中心的微意。一书作几遍看，每一遍只着重某一方面。苏东坡与王郎书曾谈到这个方法：<br>&emsp;&emsp;”少年为学者，每一书皆作数次读之。当如入海百货皆有，人之精力不能并收尽取，但得其所欲求者耳。故愿学者每一次作一意求之，如欲求古今兴亡治乱圣贤作用，且只作此意求之，勿生余念；又别作一次求事迹文物之类，亦如之。他皆仿此。若学成，八面受敌，与慕涉猎者不可同日而语。”<br>&emsp;&emsp;朱子尝劝他的门人采用这个方法。它是精读的一个要诀，可以养成仔细分析的习惯。举看小说为例，第一次但求故事结构，第二次但注意人物描写，第三次但求人物与故事的穿插，以至于对话、辞藻、社会背景、人生态度等等都可如此逐次研求。<br>&emsp;&emsp;读书要有中心，有中心才易有系统组织。比如看史书，假定注意的中心是教育与政治的关系，则全书中所有关于这问题的史实都被这中心联系起来，自成一个系统。以后读其它书籍如经子专集之类，自然也常遇着关于政教关系的事实与理论，它们也自然归到从前看史书时所形成的那个系统了。一个人心里可以同时有许多系统中心，如一部字典有许多”部首”，每得一条新知识，就会依物以类聚的原则，汇归到它的性质相近的系统里去，就如拈新字贴进字典里去，是人旁的字都归到人部，是水旁的字都归到水部。大凡零星片断的知识，不但易忘，而且无用。每次所得的新知识必须与旧有的知识联络贯串，这就是说，必须围绕一个中心归聚到一个系统里去，才会生根，才会开花结果。<br>&emsp;&emsp;记忆力有它的限度，要把读过的书所形成的知识系统，原本枝叶都放在脑里储藏起，在事实上往往不可能。如果不能储藏，过目即忘，则读亦等于不读。我们必须于脑以外另辟储藏室，把脑所储藏不尽的都移到那里去。这种储藏室在从前是笔记，在现代是卡片。记笔记和做卡片有如植物学家采集标本，须分门别类订成目录，采得一件就归入某一门某一类，时间过久了，采集的东西虽极多，却各有班位，条理井然。这是一个极合乎科学的办法，它不但可以节省脑力，储有用的材料，供将来的需要，还可以增强思想的条理化与系统化。预备做研究工作的人对于记笔记做卡片的训练，宜于早下工夫。  </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
 
-</section>
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lyoong.info/2018/01/21/tonglingxinpian/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="bibibi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="闲情杂记">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <aside id="sidebar">
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/21/tonglingxinpian/" itemprop="url">一周读书--通灵芯片</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-21T14:57:14+08:00">
+                2018-01-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
     
 
-  
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>一周读书-第一期。</p>
+<h2 id="书名"><a href="#书名" class="headerlink" title="书名"></a>书名</h2><h3 id="通灵芯片"><a href="#通灵芯片" class="headerlink" title="通灵芯片"></a>通灵芯片</h3><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>这本书讲述的是计算机的组成原理。书中由浅入深，从简单的与、或、非三中逻辑讲到有限状态机，再讲到了通用计算机的组成。作者作为一个人工智能专家，最后还提及了人工智能，讲述了智能化的计算机的基础。看完后让人恍然大悟，对计算机的了解也更上一层楼。</p>
+
+          
+        
+      
+    </div>
+    
+    
     
 
-  
     
-  
+
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li></ul>
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/10/22/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+    <div class="sidebar-inner">
 
-  
-</aside>
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">bibibi</p>
+              <p class="site-description motion-element" itemprop="description">读书笔记</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">bibibi</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
